@@ -7,6 +7,6 @@ ReactDOM.render(
   <React.StrictMode>
     <Home />
   </React.StrictMode>,
+  // eslint-disable-next-line no-undef
   document.getElementById('root')
 );
-

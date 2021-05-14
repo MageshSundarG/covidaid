@@ -50,7 +50,7 @@ export default function Header() {
           <Link
             variant='button'
             color='textPrimary'
-            href='#'
+            href='#/'
             className={classes.link}
           >
             Features
@@ -58,7 +58,7 @@ export default function Header() {
           <Link
             variant='button'
             color='textPrimary'
-            href='#'
+            href='#/'
             className={classes.link}
           >
             Enterprise
@@ -66,14 +66,14 @@ export default function Header() {
           <Link
             variant='button'
             color='textPrimary'
-            href='#'
+            href='#/'
             className={classes.link}
           >
             Support
           </Link>
         </nav>
         <Button
-          href='#'
+          href='#/'
           color='primary'
           variant='outlined'
           className={classes.link}

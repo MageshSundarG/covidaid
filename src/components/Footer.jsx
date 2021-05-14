@@ -14,7 +14,6 @@ function Copyright() {
         Your Website
       </Link>{' '}
       {new Date().getFullYear()}
-      {'.'}
     </Typography>
   );
 }
@@ -85,7 +84,7 @@ export default function Footer() {
             <ul>
               {footer.description.map(item => (
                 <li key={item}>
-                  <Link href='#' variant='subtitle1' color='textSecondary'>
+                  <Link href='#/' variant='subtitle1' color='textSecondary'>
                     {item}
                   </Link>
                 </li>

@@ -23,7 +23,7 @@ export default function Pricing() {
   const classes = useStyles();
 
   return (
-    <React.Fragment>
+    <>
       <CssBaseline />
       <Header />
       {/* Hero unit */}
@@ -48,6 +48,6 @@ export default function Pricing() {
       </Container>
       {/* End hero unit */}
       <Footer />
-    </React.Fragment>
+    </>
   );
 }
